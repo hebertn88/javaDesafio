@@ -30,6 +30,7 @@ public class Desafio05 {
             System.out.println("Deseja continuar comprando?[S/N]");
             continua = sc.nextLine().toUpperCase();
         }
+        sc.close();
 
         //verificar qts itens da lista compras estao em promocao
         int qtdProdutosPromocao = 0;
