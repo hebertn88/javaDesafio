@@ -23,6 +23,7 @@ public class Desafio01 {
             if (!isValid(response))
                 System.out.println("Resposta inválida! Tente novamente...");
         }
+        scan.close();
         int num = Integer.parseInt(response);
 
         for (int i = 1; i <= 10; i++)

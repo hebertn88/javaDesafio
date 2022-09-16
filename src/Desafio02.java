@@ -20,6 +20,9 @@ public class Desafio02 {
             if (!Desafio01.isInt(response))
                 System.out.println("Resposta inválida! Tente novamente...");
         }
+
+        scan.close();
+
         int num = Integer.parseInt(response);
 
         System.out.printf("%s°C equivale a %s°F!%n!", num, (float) num * 9 / 5 + 32);
