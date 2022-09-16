@@ -22,7 +22,7 @@ public class Desafio02 {
         }
         int num = Integer.parseInt(response);
 
-        System.out.printf("%s°C equivale a %s°F!%n", num, (float) num * 9 / 5 + 32);
+        System.out.printf("%s°C equivale a %s°F!%n!", num, (float) num * 9 / 5 + 32);
 
 
     }
